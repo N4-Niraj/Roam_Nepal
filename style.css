@@ -9,7 +9,7 @@ body {
     
     
 }
-.Main-section{
+.main-section{
     background-image: url(images/Gemini_Generated_Image_9p3tyl9p3tyl9p3t.png);
         background-size: cover;
         background-position: center;
@@ -26,7 +26,7 @@ nav {
      padding: 20px 50px;
 
  }
- .Nav_title{
+ .nav_title{
     display: flex;
     flex-direction: column;
     align-items: left;
@@ -35,83 +35,135 @@ nav {
      
 
  }
- .Nav_title_Name {
+ .nav_title_name {
      font-size: 35px;
      color: #0b4b23;
  }
 
- .Nav_title_description {
+ .nav_title_description {
   
      font-size: 12px;
      color: #2d864e;
  }
 
 
- .Nav_links {
+ .nav_links {
      display: flex;
      gap: 10px;
      list-style: none;
      padding-right: 50px;
  }
 
- .Nav_links a {
+ .nav_links a {
      font-weight: bold;
      padding: 8px 15px;
      background-color: #055f3f;
-     color: #fbfffe;
+     color: #eaf5f3;
      text-decoration: none;
      border-radius: 5px;
      transition: 0.5s;
  }
 
- .Nav_links a:hover {
-    color: #5caa79;
+ .nav_links a:hover {
+    color: #000502;
      background-color: #034931;
  }
- .Hero_section {
+ .hero_section {
      display: flex;
      flex-direction: column;
      align-items: center;
      justify-content: center;
-     
+     padding: 230px;
      max-width: 1200px;
+     margin: auto;
      
     
  }
- .Hero_section_title {
+ .hero_section_title {
      font-size: 50px;
      color: #0b4b23;
      text-align: center;
      margin-bottom: 0px;
      font-weight: bold;
  }
- .Hero_section_description {
+ .hero_section_description {
      font-size: 20px;
     font-weight: bold;
      color: #11391f;
      text-align: center;
      margin-bottom: 10px;
  }
- .Hero_section_content {
+ .hero_section_content {
      display: flex;
      flex-direction: column;
      align-items: center;
      gap: 0px;
  }
-.Explore_button {
+.explore_button {
      padding: 10px 20px;
-    button-size: 20px;
+    
      background-color: #055f3f;
-     color: #fbfffe;
+     color: #c8ece2;
      border: none;
      border-radius: 5px;
      cursor: pointer;
      transition: 0.5s;
  }
 
- .Explore_button:hover {
+ .explore_button:hover {
     color: #5caa79;
      background-color: #034931;
  }
+.explore_by_category{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    height: 300px;
+    gap: 5px;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: center;
 
+}
 
+.category_1{
+    position: relative;
+
+    background-image: url(images/destination.jpeg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+
+}
+.category_2{
+    position: relative;
+
+    background-image: url(images/Mountain.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+
+}
+.category_3{
+    position: relative;
+    background-image: url(images/culture\ and\ heritage...jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+.category_4{
+    position: relative;
+      background-image: url(images/Wildlife\ &\ Nature.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    
+}
+.category_text{
+    position: absolute;
+    justify-content: center;
+    bottom: 0px;
+    color: z#9f6050;
+    font-weight: bold;
+    font-size: 12px;
+    
+}
