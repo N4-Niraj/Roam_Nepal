@@ -4,10 +4,13 @@
     box-sizing: border-box;
 }
 
-body {}
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #008d342f;
+}
 
 .main-section {
-    background-image: url(images/Gemini_Generated_Image_9p3tyl9p3tyl9p3t.png);
+    background-image: url(images/raimond-klavins-KKm1ua7MSf0-unsplash.jpg);
     background-size: cover;
     background-position: center;
     height: 685px;
@@ -22,6 +25,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
+    background-color: rgba(102, 159, 49, 0.122);
 
 }
 
@@ -29,21 +33,23 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: left;
-    gap: 0px;
+    gap: 2px;
 
 
 
 }
 
 .nav_title_name {
-    font-size: 35px;
-    color: #0b4b23;
+    font-size: 32px;
+    color: #ffffff;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.3);
 }
 
 .nav_title_description {
-
+    font-weight: 700;
     font-size: 12px;
-    color: #2d864e;
+    color: #0c4a1f;
+    letter-spacing: 0.05em;
 }
 
 
@@ -51,22 +57,25 @@ nav {
     display: flex;
     gap: 10px;
     list-style: none;
-    padding-right: 50px;
+    padding-right: 20px;
 }
 
 .nav_links a {
     font-weight: bold;
     padding: 8px 15px;
-    background-color: #055f3f;
+    background-color: #055f4033;
     color: #eaf5f3;
     text-decoration: none;
-    border-radius: 5px;
+    border: 1px solid rgb(255, 249, 249);
+    border-radius: 20px;
     transition: 0.5s;
 }
 
 .nav_links a:hover {
-    color: #f8fc6b;
+    color: #ffffff;
     background-color: #034931;
+    border-color: #034931;
+
 }
 
 .hero_section {
@@ -74,7 +83,7 @@ nav {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 230px;
+    padding: 180px 60px 40px;
     max-width: 1200px;
     margin: auto;
 
@@ -83,44 +92,92 @@ nav {
 
 .hero_section_title {
     font-size: 50px;
-    color: #0b4b23;
+    color:  #a6ebd3;
     text-align: center;
     margin-bottom: 0px;
-    font-weight: bold;
+    font-weight: 900;
+    text-shadow: 0 1px 6px rgba(0,0,0,0.3);
 }
 
 .hero_section_description {
     font-size: 20px;
     font-weight: bold;
-    color: #11391f;
+    color:  #034931;
     text-align: center;
     margin-bottom: 10px;
+    letter-spacing: 0.04em;
+    
 }
 
 .hero_section_content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0px;
+    gap: 1px;
 }
 
 .explore_button {
     padding: 10px 20px;
-
     background-color: #055f3f;
     color: #c8ece2;
     border: none;
-    border-radius: 5px;
+    border-radius: 35px;
     cursor: pointer;
     transition: 0.5s;
+    font-size: 15px;
+    font-weight: 700;
 
 }
 
 .explore_button:hover {
-    color: #5caa79;
-    background-color: #034931;
+    transform: translateY(-2px);
+    color: #ffffff;
+    background-color: #033c28;
+}
+.featured_destinations_container{
+    padding: 60px 80px;
+    
+}
+.featured_destinations_text {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 15px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 12px;
+
+
 }
 
+.featured_destinations_text p {
+    color: #ffffff;
+    font-size: 11px;
+
+}
+
+.featured_destination_main_text {
+    
+    font-size: 16px;
+    margin-bottom: 60px;
+
+}
+
+.featured_destination_main_text h1 {
+    font-weight: 900;
+    color: #1a4d30;
+    font-size: 42px;
+
+
+}
+
+.featured_destination_main_text p {
+
+   font-size: 18px;
+    color: #3f7554;
+    
+
+}
 
 
 .featured_destinations {
@@ -131,10 +188,10 @@ nav {
     grid-template-columns: repeat(3, 250px);
 
     gap: 20px;
-    max-width: 1200px;
+    max-width: 1100px;
     margin: auto;
     justify-content: center;
-    margin-top: 80px;
+
 
 
 
@@ -148,13 +205,14 @@ nav {
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 5px;
+    cursor: pointer;
 
 }
 
 .featured_destinations_2 {
     grid-row: 1 / 2;
     grid-column: 2 / 3;
-
+    cursor: pointer;
     position: relative;
     background-image: url(images/mustang.webp);
     background-size: cover;
@@ -171,6 +229,7 @@ nav {
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .featured_destinations_4 {
@@ -181,6 +240,7 @@ nav {
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 5px;
+    cursor: pointer;
 
 }
 
@@ -192,54 +252,51 @@ nav {
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 5px;
-
+    cursor: pointer;
+}
+.featured_destinations_1:hover,
+.featured_destinations_2:hover,
+.featured_destinations_3:hover,
+.featured_destinations_4:hover,
+.featured_destinations_5:hover {
+    transition: 0.3s;
+    transform: translateY(-3px);
 }
 
-.featured_destinations_text {
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    bottom: 15px;
-    color: #b3f2a4;
-    font-weight: bold;
-    font-size: 12px;
-
-
-}
-
-.featured_destinations_text p {
-    text-decoration: solid 1px black;
-    color: #38ca6d;
-    font-size: 11px;
-
-}
-
-.featured_destination_main_text {
-    margin-top: 100px;
-    margin-left: 100px;
-
-}
-
-.featured_destination_main_text h1 {
-    font-weight: bold;
-    color: #378653;
-    font-size: 60px;
-
-
-}
-
-.featured_destination_main_text p {
-    font-size: 16px;
-    color: #27613d;
-
-}
 
 .explore_by_category {
     display: flex;
     flex-direction: column;
+    margin-bottom: 80px;
 
 
 
+}
+.explore_main_container{
+    background-color: #1a4d30;
+    
+}
+.explore_main_text {
+    padding-left: 180px;
+    align-items: left;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.explore_main_text h1 {
+    color: #b1d0e6;
+    font-size: 60px;
+}
+
+.explore_main_text p {
+    color: #b1d0e6;
+    font-size: 30px;
+}
+
+.explore_main_container {
+    height: 720px;
 }
 
 .categories {
@@ -312,28 +369,7 @@ nav {
 
 
 
-.explore_main_text {
-    padding-left: 180px;
-    align-items: left;
-    padding-top: 150px;
-    padding-bottom: 80px;
-    display: flex;
-    flex-direction: column;
-}
 
-.explore_main_text h1 {
-    color: #b1d0e6;
-    font-size: 60px;
-}
-
-.explore_main_text p {
-    color: #b1d0e6;
-    font-size: 30px;
-}
-
-.explore_main_container {
-    height: 720px;
-}
 
 .journey_through_nepal {
     
