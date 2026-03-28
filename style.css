@@ -772,3 +772,126 @@ footer {
     max-width: 1100px;
     margin: auto;
 }
+
+.festivals_section {
+    padding: 70px 80px;
+    background-color: #f4faf6;
+}
+
+.festivals_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1100px;
+    margin: 40px auto 0;
+}
+
+.festival_card {
+    background-color: #ffffff;
+    border: 1px solid #c8ece2;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.festival_card:hover {
+    transform: translateY(-4px);
+    border-color: #034931;
+}
+
+.festival_card_banner {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.banner_1  { background-color: #1a4d30; }
+.banner_2  { background-color: #034931; }
+.banner_3  { background-color: #055f3f; }
+.banner_4  { background-color: #0c6640; }
+.banner_5  { background-color: #1a4d30; }
+.banner_6  { background-color: #034931; }
+
+.festival_card_body {
+    padding: 18px;
+}
+
+.festival_card_body h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #1a4d30;
+    margin-bottom: 5px;
+}
+
+.festival_card_body p {
+    font-size: 12px;
+    color: #3f7554;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.festival_meta {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.festival_month {
+    background-color: #c8ece2;
+    color: #034931;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 10px;
+}
+
+.festival_type {
+    background-color: #f0f0f0;
+    color: #555;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 10px;
+}
+
+.festival_calendar_section {
+    background-color: #1a4d30;
+    padding: 60px 80px;
+}
+
+.festival_calendar_section h2 {
+    color: #a6ebd3;
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.calendar_grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    max-width: 1100px;
+}
+
+.calendar_month {
+    background-color: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.calendar_month h4 {
+    color: #a6ebd3;
+    font-size: 13px;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+.calendar_month p {
+    color: #d4f0e0;
+    font-size: 11px;
+    line-height: 1.6;
+}
