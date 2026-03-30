@@ -802,18 +802,46 @@ footer {
 
 .festival_card_banner {
     height: 120px;
+    max-width: 400px;
+    margin: ;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 50px;
 }
 
-.banner_1  { background-color: #1a4d30; }
-.banner_2  { background-color: #034931; }
-.banner_3  { background-color: #055f3f; }
-.banner_4  { background-color: #0c6640; }
-.banner_5  { background-color: #1a4d30; }
-.banner_6  { background-color: #034931; }
+
+.banner_1 {
+    background-image: url(images/festivals/Tihar.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.banner_2 {
+    background-image: url(images/festivals/dashine.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.banner_3 {
+    background-image: url(images/festivals/Indra\ jatra.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.banner_4 {
+    background-image: url(images/festivals/buddha\ jyanti.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.banner_5 {
+    background-image: url(images/festivals/Holi.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.banner_6 {
+    background-image: url(images/festivals/Losar.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 
 .festival_card_body {
     padding: 18px;
@@ -833,7 +861,7 @@ footer {
     margin-bottom: 10px;
 }
 
-.festival_meta {
+.festival_info{
     display: flex;
     gap: 8px;
     flex-wrap: wrap;
@@ -950,12 +978,16 @@ footer {
 
 
 .food_card_image {
+    
+    max-width: 300px;
     height: 200px;
+    margin: auto;
     background-color: #033c28;
 }
 .food_card_image_ {
     width: 300px;
     height: 200px;
+   
 }
 .food_card_body {
     padding: 18px;
