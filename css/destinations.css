@@ -106,7 +106,7 @@ nav {
 }
 .page_hero_destinations {
     background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
-        url(images/destination.jpeg);
+        url(../images/destination.jpeg);
 }
 .page_hero h1 {
     font-size: 46px;
@@ -139,47 +139,47 @@ nav {
 
 .dest_card_bg_1 {
     background-image: linear-gradient(to top, rgba(0,0,0,0.65) 0%, transparent 55%),
-        url(images/Chitwan.jpg);
+        url(../images/Chitwan.jpg);
 }
 
 .dest_card_bg_2 {
     background-image: linear-gradient(to top, rgba(0,0,0,0.65) 0%, transparent 55%),
-        url(images/Mustang-2.jpg);
+        url(../images/Mustang-2.jpg);
 }
 
 .dest_card_bg_3 {
     background-image: linear-gradient(to top, rgba(0,0,0,0.65) 0%, transparent 55%),
-        url(images/pokhara.jpg);
+        url(../images/pokhara.jpg);
 }
 
 .dest_card_bg_4 {
     background-image: linear-gradient(to top, rgba(0,0,0,0.65) 0%, transparent 55%),
-        url(images/Lumbini.jpg);
+        url(../images/Lumbini.jpg);
 }
 
 .dest_card_bg_5 {
     background-image: linear-gradient(to top, rgba(0,0,0,0.65) 0%, transparent 55%),
-        url(images/everest.jpg);
+        url(../images/everest.jpg);
 }
 
 .dest_card_bg_6 {
     background-image: linear-gradient(to top, rgba(0,0,0,0.65) 0%, transparent 55%),
-        url(images/kathmandu.jpg);
+        url(../images/kathmandu.jpg);
 }
 
 .dest_card_bg_7 {
     background-image: linear-gradient(to top, rgba(0,0,0,0.65) 0%, transparent 55%),
-        url(images/langtang.jpg);
+        url(../images/langtang.jpg);
 }
 
 .dest_card_bg_8 {
     background-image: linear-gradient(to top, rgba(0,0,0,0.65) 0%, transparent 55%),
-        url(images/Bardiya.jpg);
+        url(../images/Bardiya.jpg);
 }
 
 .dest_card_bg_9 {
      background-image: linear-gradient(to top, rgba(0,0,0,0.65) 0%, transparent 55%),
-        url(images/RARA.jpg);
+        url(../images/RARA.jpg);
 }
 
 .dest_card_info {
