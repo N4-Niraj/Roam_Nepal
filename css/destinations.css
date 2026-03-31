@@ -1,0 +1,337 @@
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: rgba(18, 71, 41, 0.85);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav_title_name {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+
+.nav_title_name {
+    font-size: 30px;
+    color: #ffffff;
+}
+@media (max-width: 1020px) {
+    .nav_title {
+        display: flex;
+        flex-direction: column;
+        font-size: 22px;
+        
+    }
+}
+@media (max-width: 724px) {
+    .nav_title_name {
+        display: flex;
+        flex-direction: column;
+        font-size: 18px;
+        
+    }
+}
+
+.nav_title_description {
+    font-weight: 700;
+    font-size: 11px;
+    color: #a6ebd3;
+    letter-spacing: 0.05em;
+}
+
+.nav_links {
+    display: flex;
+    gap: 4px;
+    list-style: none;
+}
+
+.nav_links a {
+    font-weight: bold;
+    padding: 8px 15px;
+    background-color: #055f4033;
+    color: #eaf5f3;
+    text-decoration: none;
+    border: 0.1px solid rgb(255, 249, 249);
+    border-radius: 20px;
+    transition: 0.5s;
+    font-size: 12px;
+}
+@media (max-width: 1020px) {
+    .nav_links a {
+        display: flex;
+        font-size: 10px;
+        padding: 7px 12px;
+        
+        
+    }
+}
+@media (max-width: 724px) {
+    .nav_links a {
+        display: flex;
+        font-size: 8px;
+        padding: 6px 10px;
+        
+        
+    }
+}
+.nav_links a:hover {
+    color: #ffffff;
+    background-color: #034931;
+    border-color: #034931;
+}
+
+.nav_links a.active {
+    background-color: #034931;
+    border-color: #a6ebd3;
+    color: #a6ebd3;
+}
+
+
+
+.page_hero {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.page_hero_destinations {
+    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+        url(images/destination.jpeg);
+}
+.page_hero h1 {
+    font-size: 46px;
+    color: #a6ebd3;
+    font-weight: 900;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.4);
+    text-align: center;
+}
+
+.page_hero p {
+    font-size: 16px;
+    color: #d4f0e0;
+    letter-spacing: 0.04em;
+    text-align: center;
+}
+.dest_card {
+    position: relative;
+    height: 230px;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    transition: 0.3s;
+}
+
+.dest_card:hover {
+    transform: translateY(-5px);
+}
+
+.dest_card_bg_1 {
+    background-image: linear-gradient(to top, rgba(0,0,0,0.65) 0%, transparent 55%),
+        url(images/Chitwan.jpg);
+}
+
+.dest_card_bg_2 {
+    background-image: linear-gradient(to top, rgba(0,0,0,0.65) 0%, transparent 55%),
+        url(images/Mustang-2.jpg);
+}
+
+.dest_card_bg_3 {
+    background-image: linear-gradient(to top, rgba(0,0,0,0.65) 0%, transparent 55%),
+        url(images/pokhara.jpg);
+}
+
+.dest_card_bg_4 {
+    background-image: linear-gradient(to top, rgba(0,0,0,0.65) 0%, transparent 55%),
+        url(images/Lumbini.jpg);
+}
+
+.dest_card_bg_5 {
+    background-image: linear-gradient(to top, rgba(0,0,0,0.65) 0%, transparent 55%),
+        url(images/everest.jpg);
+}
+
+.dest_card_bg_6 {
+    background-image: linear-gradient(to top, rgba(0,0,0,0.65) 0%, transparent 55%),
+        url(images/kathmandu.jpg);
+}
+
+.dest_card_bg_7 {
+    background-image: linear-gradient(to top, rgba(0,0,0,0.65) 0%, transparent 55%),
+        url(images/langtang.jpg);
+}
+
+.dest_card_bg_8 {
+    background-image: linear-gradient(to top, rgba(0,0,0,0.65) 0%, transparent 55%),
+        url(images/Bardiya.jpg);
+}
+
+.dest_card_bg_9 {
+     background-image: linear-gradient(to top, rgba(0,0,0,0.65) 0%, transparent 55%),
+        url(images/RARA.jpg);
+}
+
+.dest_card_info {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: #fff;
+}
+
+.dest_card_info h3 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.dest_card_info p {
+    font-size: 11px;
+    color: #c8ece2;
+    margin-top: 2px;
+}
+
+.dest_tag {
+    display: inline-block;
+    background-color: rgba(166, 235, 211, 0.305);
+    
+    color: #98d0bd;
+    font-size: 10px;
+    padding: 2px 8px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.destinations_section {
+    padding: 70px 80px;
+    background-color: #f4faf6;
+}
+
+.section_heading {
+    margin-bottom: 40px;
+}
+
+.section_heading h1 {
+    font-size: 38px;
+    font-weight: 900;
+    color: #1a4d30;
+}
+
+.section_heading p {
+    font-size: 16px;
+    color: #3f7554;
+    margin-top: 5px;
+}
+
+.destinations_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+footer {
+    background-color: #0c3320;
+    padding: 60px 80px 30px;
+    color: #b8e8cc;
+}
+
+.footer_top {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.footer_brand h2 {
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.footer_brand p {
+    font-size: 13px;
+    color: #a6ebd3;
+    line-height: 1.7;
+    max-width: 250px;
+}
+
+.footer_col h4 {
+    color: #a6ebd3;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    letter-spacing: 0.04em;
+}
+
+.footer_col ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.footer_col ul li a {
+    color: #b8e8cc;
+    text-decoration: none;
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+.footer_col ul li a:hover {
+    color: #ffffff;
+}
+
+.footer_col p {
+    font-size: 13px;
+    color: #b8e8cc;
+    line-height: 1.9;
+}
+
+.footer_bottom {
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.footer_bottom p {
+    font-size: 12px;
+    color: #a6ebd3;
+}
+
+.footer_socials {
+    display: flex;
+    gap: 10px;
+}
+
+.social_btn {
+    padding: 7px 15px;
+    background-color: rgba(255,255,255,0.08);
+    color: #d4f0e0;
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 20px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+.social_btn:hover {
+    background-color: #034931;
+    color: #ffffff;
+}
