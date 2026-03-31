@@ -476,6 +476,7 @@ nav {
     margin: auto;
     height: 280px;
     margin-bottom: 50px;
+    
 }
 
 .category_1,
@@ -494,6 +495,7 @@ nav {
 .category_1 {
     background-image: linear-gradient(to top, rgba(0,0,0,0.6) 0%, transparent 55%),
         url(images/destination.jpeg);
+        
 }
 
 .category_2 {
