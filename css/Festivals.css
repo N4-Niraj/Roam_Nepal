@@ -102,7 +102,7 @@ nav {
 }
 
 .page_hero {
-    height: 300px;
+    height: 620px;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -113,7 +113,7 @@ nav {
 }
 .page_hero_festivals {
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-        url(../images/Trekk.jpeg);
+        url(../images/festivals/Indra\ jatra.jpg);
 }
 .page_hero h1 {
     font-size: 46px;

@@ -483,6 +483,8 @@ nav {
 .category_2,
 .category_3,
 .category_4 {
+    display: flex;
+    flex-wrap: wrap;
     position: relative;
     background-size: cover;
     background-position: center;
