@@ -333,19 +333,23 @@ nav {
 .why_nepal_section {
     background-color: #1a4d30;
     padding: 70px 80px;
+    height: 610px;
+    text-align: center;
 }
 
 .why_nepal_section h1 {
     color: #a6ebd3;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 900;
     margin-bottom: 6px;
 }
 
 .why_nepal_section > p {
     color: #b8e8cc;
-    font-size: 16px;
-    margin-bottom: 50px;
+    font-size: 21px;
+    margin-bottom: 80px;
+
+
 }
 
 .why_cards {
@@ -353,37 +357,39 @@ nav {
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
+
 }
 
 .why_card {
-    background-color: rgba(255, 255, 255, 0.07);
-    border: 1px solid rgba(255, 255, 255, 0.15);
+    background-color: rgba(24, 114, 66, 0.407);
+    border: 1px solid rgba(226, 221, 221, 0.296);
     border-radius: 10px;
     padding: 35px 30px;
     width: 220px;
     text-align: center;
     transition: 0.3s;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .why_card:hover {
-    background-color: rgba(255, 255, 255, 0.12);
+    background-color: rgba(24, 114, 66, 0.407);
     transform: translateY(-4px);
+    border-color: rgba(10, 128, 53, 0.127);
 }
 
-.why_card_icon {
-    font-size: 40px;
-    margin-bottom: 14px;
-}
+
 
 .why_card h3 {
-    color: #a6ebd3;
-    font-size: 15px;
-    font-weight: 700;
+    padding-bottom: 20px;
+    color: #7be9c2;
+    font-size: 16px;
+    font-weight: 900;
     margin-bottom: 1px;
 }
 
 .why_card p {
-    color: #b8e8cc;
+    color: #ccd8d1;
     font-size: 12px;
     line-height: 1.5;
 }
@@ -393,6 +399,7 @@ nav {
     background-color: #f4faf6;
     padding: 70px 80px;
     text-align: center;
+    height: 610px;
 }
 
 .nepal_facts_section h1 {
@@ -420,7 +427,7 @@ nav {
     border: 1px solid #c8ece2;
     border-radius: 10px;
     padding: 30px 35px;
-    width: 180px;
+    width: 200px;
     transition: 0.3s;
 }
 
@@ -430,14 +437,14 @@ nav {
 }
 
 .fact_number {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 900;
     color: #034931;
     margin-bottom: 6px;
 }
 
 .fact_label {
-    font-size: 12px;
+    font-size: 14px;
     color: #3f7554;
     line-height: 1.5;
 }
@@ -585,7 +592,7 @@ nav {
 
 footer {
     background-color: #0c3320;
-    padding: 60px 80px 30px;
+    padding: 40px 80px 25px;
     color: #b8e8cc;
 }
 
@@ -597,13 +604,13 @@ footer {
     flex-wrap: wrap;
 }
 
-.footer_brand h2 {
+.footer_title h2 {
     color: #ffffff;
     font-size: 24px;
     margin-bottom: 8px;
 }
 
-.footer_brand p {
+.footer_title p {
     font-size: 13px;
     color: #a6ebd3;
     line-height: 1.7;

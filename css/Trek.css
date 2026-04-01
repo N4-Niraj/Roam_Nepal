@@ -248,7 +248,7 @@ nav {
 }
 footer {
     background-color: #0c3320;
-    padding: 60px 80px 30px;
+    padding: 40px 80px 25px;
     color: #b8e8cc;
 }
 
@@ -260,13 +260,13 @@ footer {
     flex-wrap: wrap;
 }
 
-.footer_brand h2 {
+.footer_title h2 {
     color: #ffffff;
-    font-size: 24px;
+    font-size: 28px;
     margin-bottom: 8px;
 }
 
-.footer_brand p {
+.footer_title p {
     font-size: 13px;
     color: #a6ebd3;
     line-height: 1.7;
@@ -275,7 +275,7 @@ footer {
 
 .footer_col h4 {
     color: #a6ebd3;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
     margin-bottom: 16px;
     letter-spacing: 0.04em;
@@ -291,7 +291,7 @@ footer {
 .footer_col ul li a {
     color: #b8e8cc;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 14px;
     transition: 0.3s;
 }
 
@@ -307,7 +307,7 @@ footer {
 
 .footer_bottom {
     border-top: 1px solid rgba(255,255,255,0.1);
-    padding-top: 25px;
+    padding-top: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;

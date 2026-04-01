@@ -148,47 +148,47 @@ nav {
 }
 
 .dest_card_bg_1 {
-    background-image: linear-gradient(to top, rgba(0,0,0,0.65) 0%, transparent 55%),
+    background-image: linear-gradient(to top, rgba(0,0,0,0.65) 10%, transparent 55%),
         url(../images/Chitwan.jpg);
 }
 
 .dest_card_bg_2 {
-    background-image: linear-gradient(to top, rgba(0,0,0,0.65) 0%, transparent 55%),
+    background-image: linear-gradient(to top, rgba(0,0,0,0.65) 10%, transparent 55%),
         url(../images/Mustang-2.jpg);
 }
 
 .dest_card_bg_3 {
-    background-image: linear-gradient(to top, rgba(0,0,0,0.65) 0%, transparent 55%),
+    background-image: linear-gradient(to top, rgba(0,0,0,0.65) 10%, transparent 55%),
         url(../images/pokhara.jpg);
 }
 
 .dest_card_bg_4 {
-    background-image: linear-gradient(to top, rgba(0,0,0,0.65) 0%, transparent 55%),
+    background-image: linear-gradient(to top, rgba(0,0,0,0.65) 10%, transparent 55%),
         url(../images/Lumbini.jpg);
 }
 
 .dest_card_bg_5 {
-    background-image: linear-gradient(to top, rgba(0,0,0,0.65) 0%, transparent 55%),
+    background-image: linear-gradient(to top, rgba(0,0,0,0.65) 10%, transparent 55%),
         url(../images/everest.jpg);
 }
 
 .dest_card_bg_6 {
-    background-image: linear-gradient(to top, rgba(0,0,0,0.65) 0%, transparent 55%),
+    background-image: linear-gradient(to top, rgba(0,0,0,0.65) 10%, transparent 55%),
         url(../images/kathmandu.jpg);
 }
 
 .dest_card_bg_7 {
-    background-image: linear-gradient(to top, rgba(0,0,0,0.65) 0%, transparent 55%),
+    background-image: linear-gradient(to top, rgba(0,0,0,0.65) 10%, transparent 55%),
         url(../images/langtang.jpg);
 }
 
 .dest_card_bg_8 {
-    background-image: linear-gradient(to top, rgba(0,0,0,0.65) 0%, transparent 55%),
+    background-image: linear-gradient(to top, rgba(0,0,0,0.65) 10%, transparent 55%),
         url(../images/Bardiya.jpg);
 }
 
 .dest_card_bg_9 {
-     background-image: linear-gradient(to top, rgba(0,0,0,0.65) 0%, transparent 55%),
+     background-image: linear-gradient(to top, rgba(0,0,0,0.65) 10%, transparent 50%),
         url(../images/RARA.jpg);
 }
 
@@ -197,7 +197,7 @@ nav {
     bottom: 15px;
     left: 15px;
     color: #fff;
-}
+}   
 
 .dest_card_info h3 {
     font-size: 16px;
@@ -251,7 +251,7 @@ nav {
 }
 footer {
     background-color: #0c3320;
-    padding: 60px 80px 30px;
+    padding: 40px 80px 25px;
     color: #b8e8cc;
 }
 
@@ -263,13 +263,13 @@ footer {
     flex-wrap: wrap;
 }
 
-.footer_brand h2 {
+.footer_title h2 {
     color: #ffffff;
     font-size: 24px;
     margin-bottom: 8px;
 }
 
-.footer_brand p {
+.footer_title p {
     font-size: 13px;
     color: #a6ebd3;
     line-height: 1.7;
@@ -310,7 +310,7 @@ footer {
 
 .footer_bottom {
     border-top: 1px solid rgba(255,255,255,0.1);
-    padding-top: 25px;
+    padding-top: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;

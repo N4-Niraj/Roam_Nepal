@@ -111,38 +111,59 @@ nav {
     flex-direction: column;
     gap: 10px;
 }
-.page_hero_festivals {
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-        url(../images/festivals/Indra\ jatra.jpg);
+.page_hero_wildlife {
+    background-image: linear-gradient(to top, rgba(9, 11, 10, 0.657), rgba(0, 0, 0, 0)),url(../images/wildlifebackground.jpg);
+    background-color: #1a4d3000;
 }
 .page_hero h1 {
     font-size: 46px;
     color: #a6ebd3;
     font-weight: 900;
-    text-shadow: 0 2px 8px rgba(0,0,0,0.4);
     text-align: center;
 }
 
 .page_hero p {
     font-size: 16px;
     color: #d4f0e0;
-    letter-spacing: 0.04em;
     text-align: center;
 }
-.festivals_section {
+.wildlife_section {
     padding: 70px 80px;
     background-color: #f4faf6;
 }
 
-.festivals_grid {
+.wildlife_intro {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    margin-bottom: 60px;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wildlife_intro_text h1 {
+    font-size: 38px;
+    color: #1a4d30;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+
+.wildlife_intro_text p {
+    font-size: 14px;
+    color: #3f7554;
+    line-height: 1.8;
+}
+
+.wildlife_grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     max-width: 1100px;
-    margin: 40px auto 0;
+    margin: auto;
 }
 
-.festival_card {
+.wildlife_card {
     background-color: #ffffff;
     border: 1px solid #c8ece2;
     border-radius: 10px;
@@ -151,79 +172,44 @@ nav {
     transition: 0.3s;
 }
 
-.festival_card:hover {
+.wildlife_card:hover {
     transform: translateY(-4px);
     border-color: #034931;
 }
 
-.festival_card_banner {
-    height: 140px;
-    max-width: 400px;
+
+.wildlife_card_image {
+    
+    max-width: 350px;
+    height: 200px;
     margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 50px;
+    background-color: #033c28;
 }
-
-
-.banner_1 {
-    background-image: url(../images/festivals/Tihar.jpg);
-    background-size: cover;
-    background-position: center;
+.wildlife_card_image_ {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
 }
-.banner_2 {
-    background-image: url(../images/festivals/dashine.jpg);
-    background-size: cover;
-    background-position: center;
-}
-.banner_3 {
-    background-image: url(../images/festivals/Indra\ jatra.jpg);
-    background-size: cover;
-    background-position: center;
-}
-.banner_4 {
-    background-image: url(../images/festivals/buddha\ jyanti.jpg);
-    background-size: cover;
-    background-position: center;
-}
-.banner_5 {
-    background-image: url(../images/festivals/Holi.jpg);
-    background-size: cover;
-    background-position: center;
-}
-.banner_6 {
-    background-image: url(../images/festivals/Losar.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-
-.festival_card_body {
+.wildlife_card_body {
     padding: 18px;
 }
 
-.festival_card_body h3 {
+.wildlife_card_body h3 {
     font-size: 15px;
     font-weight: 700;
     color: #1a4d30;
-    margin-bottom: 5px;
+    margin-bottom: 6px;
 }
 
-.festival_card_body p {
+.wildlife_card_body p {
     font-size: 12px;
     color: #3f7554;
     line-height: 1.6;
-    margin-bottom: 10px;
 }
 
-.festival_info{
-    display: flex;
-    gap: 8px;
-    flex-wrap: wrap;
-}
-
-.festival_month {
+.wildlife_type {
+    display: inline-block;
+    margin-top: 10px;
     background-color: #c8ece2;
     color: #034931;
     font-size: 10px;
@@ -232,53 +218,7 @@ nav {
     border-radius: 10px;
 }
 
-.festival_type {
-    background-color: #f0f0f0;
-    color: #555;
-    font-size: 10px;
-    font-weight: 600;
-    padding: 3px 10px;
-    border-radius: 10px;
-}
 
-.festival_calendar_section {
-    background-color: #1a4d30;
-    padding: 60px 80px;
-}
-
-.festival_calendar_section h2 {
-    color: #a6ebd3;
-    font-size: 30px;
-    font-weight: 900;
-    margin-bottom: 30px;
-}
-
-.calendar_grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 12px;
-    max-width: 1100px;
-}
-
-.calendar_month {
-    background-color: rgba(255,255,255,0.07);
-    border: 1px solid rgba(255,255,255,0.12);
-    border-radius: 8px;
-    padding: 16px;
-}
-
-.calendar_month h4 {
-    color: #a6ebd3;
-    font-size: 13px;
-    margin-bottom: 8px;
-    font-weight: 700;
-}
-
-.calendar_month p {
-    color: #d4f0e0;
-    font-size: 11px;
-    line-height: 1.6;
-}
 footer {
     background-color: #0c3320;
     padding: 40px 80px 25px;
@@ -375,4 +315,3 @@ footer {
     background-color: #034931;
     color: #ffffff;
 }
-
