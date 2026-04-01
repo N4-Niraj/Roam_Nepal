@@ -18,6 +18,24 @@ nav {
     top: 0;
     z-index: 100;
 }
+@media (max-width: 1020px) {
+    nav {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        padding: 15px 30px;
+    }
+}
+@media (max-width: 724px) {
+    nav {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        padding: 15px 20px;
+        flex-wrap: wrap;
+    }
+    
+}
 
 .nav_title_name {
     display: flex;
@@ -122,6 +140,8 @@ nav {
     text-shadow: 0 2px 8px rgba(0,0,0,0.4);
     text-align: center;
 }
+
+
 
 .page_hero p {
     font-size: 16px;

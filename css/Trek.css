@@ -19,6 +19,24 @@ nav {
     top: 0;
     z-index: 100;
 }
+@media (max-width: 1020px) {
+    nav {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        padding: 15px 30px;
+    }
+}
+@media (max-width: 724px) {
+    nav {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        padding: 15px 20px;
+        flex-wrap: wrap;
+    }
+    
+}
 
 .nav_title_name {
     display: flex;
@@ -113,7 +131,32 @@ nav {
     flex-direction: column;
     gap: 10px;
 }
+@media (max-width: 1020px) {
+    .page_hero {
 
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 724px) {
+    .page_hero {
+        height: 400px;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+}
 
 .page_hero_treks {
     background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
@@ -126,6 +169,15 @@ nav {
     text-shadow: 0 2px 8px rgba(0,0,0,0.4);
     text-align: center;
 }
+@media (max-width: 724px) {
+    .page_hero h1 {
+        font-size: 32px;
+        color: #a6ebd3;
+        font-weight: 900;
+        text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+        text-align: center;
+    }
+}
 
 .page_hero p {
     font-size: 16px;
@@ -133,7 +185,14 @@ nav {
     letter-spacing: 0.04em;
     text-align: center;
 }
-
+@media (max-width: 724px) {
+    .page_hero p {
+        font-size: 16px;
+        color: #d4f0e0;
+        letter-spacing: 0.04em;
+        text-align: center;
+    }
+}
 .treks_section {
     padding: 70px 80px;
     background-color: #f4faf6;
@@ -145,6 +204,16 @@ nav {
     gap: 22px;
     max-width: 1100px;
     margin: auto;
+}
+@media (max-width: 724px) {
+    .treks_grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 22px;
+        max-width: 1100px;
+        margin: auto;
+    }
+    
 }
 
 .trek_card {

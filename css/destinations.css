@@ -20,6 +20,26 @@ nav {
     z-index: 100;
 }
 
+@media (max-width: 1020px) {
+    nav {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        padding: 15px 30px;
+    }
+}
+
+@media (max-width: 724px) {
+    nav {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        padding: 15px 20px;
+        flex-wrap: wrap;
+    }
+
+}
+
 .nav_title_name {
     display: flex;
     flex-direction: column;
@@ -31,22 +51,7 @@ nav {
     font-size: 30px;
     color: #ffffff;
 }
-@media (max-width: 1020px) {
-    .nav_title {
-        display: flex;
-        flex-direction: column;
-        font-size: 22px;
-        
-    }
-}
-@media (max-width: 724px) {
-    .nav_title_name {
-        display: flex;
-        flex-direction: column;
-        font-size: 18px;
-        
-    }
-}
+
 
 .nav_title_description {
     font-weight: 700;
@@ -72,24 +77,27 @@ nav {
     transition: 0.5s;
     font-size: 12px;
 }
+
 @media (max-width: 1020px) {
     .nav_links a {
         display: flex;
         font-size: 10px;
         padding: 7px 12px;
-        
-        
+
+
     }
 }
+
 @media (max-width: 724px) {
     .nav_links a {
         display: flex;
         font-size: 8px;
         padding: 6px 10px;
-        
-        
+
+
     }
 }
+
 .nav_links a:hover {
     color: #ffffff;
     background-color: #034931;
@@ -113,17 +121,56 @@ nav {
     justify-content: center;
     flex-direction: column;
     gap: 10px;
+    
 }
+
+@media (max-width: 1020px) {
+    .page_hero {
+
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 724px) {
+    .page_hero {
+        height: 400px;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+}
+
 .page_hero_destinations {
-    background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
         url(../images/destination.jpeg);
 }
+
 .page_hero h1 {
     font-size: 46px;
     color: #a6ebd3;
     font-weight: 900;
-    text-shadow: 0 2px 8px rgba(0,0,0,0.4);
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
     text-align: center;
+}
+@media (max-width: 724px) {
+    .page_hero h1 {
+        font-size: 32px;
+        color: #a6ebd3;
+        font-weight: 900;
+        text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+        text-align: center;
+    }
 }
 
 .page_hero p {
@@ -132,7 +179,17 @@ nav {
     letter-spacing: 0.04em;
     text-align: center;
 }
+@media (max-width: 724px) {
+    .page_hero p {
+        font-size: 16px;
+        color: #d4f0e0;
+        letter-spacing: 0.04em;
+        text-align: center;
+    }
+}
+
 .dest_card {
+    
     position: relative;
     height: 230px;
     border-radius: 8px;
@@ -142,53 +199,80 @@ nav {
     background-position: center;
     transition: 0.3s;
 }
+@media (max-width: 1020px) {
+    .dest_card {
+        position: relative;
+        height: 200px;
+        border-radius: 8px;
+        overflow: hidden;
+        cursor: pointer;
+        background-size: cover;
+        background-position: center;
+        transition: 0.3s;
+    }
+}
+@media (max-width: 724px) {
+    .dest_card {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        height: 130px;
+        width: 150px;
+        border-radius: 8px;
+        overflow: hidden;
+        cursor: pointer;
+        background-size: cover;
+        background-position: center;
+        transition: 0.3s;
+    }
+}
 
 .dest_card:hover {
     transform: translateY(-5px);
 }
 
 .dest_card_bg_1 {
-    background-image: linear-gradient(to top, rgba(0,0,0,0.65) 10%, transparent 55%),
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.65) 10%, transparent 55%),
         url(../images/Chitwan.jpg);
 }
 
 .dest_card_bg_2 {
-    background-image: linear-gradient(to top, rgba(0,0,0,0.65) 10%, transparent 55%),
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.65) 10%, transparent 55%),
         url(../images/Mustang-2.jpg);
 }
 
 .dest_card_bg_3 {
-    background-image: linear-gradient(to top, rgba(0,0,0,0.65) 10%, transparent 55%),
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.65) 10%, transparent 55%),
         url(../images/pokhara.jpg);
 }
 
 .dest_card_bg_4 {
-    background-image: linear-gradient(to top, rgba(0,0,0,0.65) 10%, transparent 55%),
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.65) 10%, transparent 55%),
         url(../images/Lumbini.jpg);
 }
 
 .dest_card_bg_5 {
-    background-image: linear-gradient(to top, rgba(0,0,0,0.65) 10%, transparent 55%),
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.65) 10%, transparent 55%),
         url(../images/everest.jpg);
 }
 
 .dest_card_bg_6 {
-    background-image: linear-gradient(to top, rgba(0,0,0,0.65) 10%, transparent 55%),
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.65) 10%, transparent 55%),
         url(../images/kathmandu.jpg);
 }
 
 .dest_card_bg_7 {
-    background-image: linear-gradient(to top, rgba(0,0,0,0.65) 10%, transparent 55%),
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.65) 10%, transparent 55%),
         url(../images/langtang.jpg);
 }
 
 .dest_card_bg_8 {
-    background-image: linear-gradient(to top, rgba(0,0,0,0.65) 10%, transparent 55%),
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.65) 10%, transparent 55%),
         url(../images/Bardiya.jpg);
 }
 
 .dest_card_bg_9 {
-     background-image: linear-gradient(to top, rgba(0,0,0,0.65) 10%, transparent 50%),
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.65) 10%, transparent 50%),
         url(../images/RARA.jpg);
 }
 
@@ -197,7 +281,7 @@ nav {
     bottom: 15px;
     left: 15px;
     color: #fff;
-}   
+}
 
 .dest_card_info h3 {
     font-size: 16px;
@@ -209,21 +293,50 @@ nav {
     color: #c8ece2;
     margin-top: 2px;
 }
+@media (max-width: 724px) {
+    .dest_card_info h3 {
+        font-size: 10px;
+        font-weight: 700;
+    }
 
+    .dest_card_info p {
+        font-size: 8px;
+        color: #c8ece2;
+        margin-top: 1px;
+    }
+    
+
+}
 .dest_tag {
     display: inline-block;
     background-color: rgba(166, 235, 211, 0.305);
-    
     color: #98d0bd;
     font-size: 10px;
     padding: 2px 8px;
     border-radius: 10px;
     margin-bottom: 5px;
 }
-
+@media (max-width: 724px) {
+    .dest_tag {
+        display: inline-block;
+        background-color: rgba(166, 235, 211, 0.402);
+        color: #98d0bd;
+        font-size: 8px;
+        padding: 2px 6px;
+        border-radius: 10px;
+        margin-bottom: 3px;
+    }
+    
+}
 .destinations_section {
     padding: 70px 80px;
     background-color: #f4faf6;
+}
+@media (max-width: 1020px) {
+    .destinations_section {
+        padding: 70px 40px;
+        background-color: #f4faf6;
+    }
 }
 
 .section_heading {
@@ -249,6 +362,17 @@ nav {
     max-width: 1100px;
     margin: auto;
 }
+@media (max-width: 724px) {
+    .destinations_grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        max-width: 1100px;
+        margin: auto;
+    }
+    
+}
+
 footer {
     background-color: #0c3320;
     padding: 40px 80px 25px;
@@ -309,7 +433,7 @@ footer {
 }
 
 .footer_bottom {
-    border-top: 1px solid rgba(255,255,255,0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
     padding-top: 20px;
     display: flex;
     justify-content: space-between;
@@ -330,9 +454,9 @@ footer {
 
 .social_btn {
     padding: 7px 15px;
-    background-color: rgba(255,255,255,0.08);
+    background-color: rgba(255, 255, 255, 0.08);
     color: #d4f0e0;
-    border: 1px solid rgba(255,255,255,0.15);
+    border: 1px solid rgba(255, 255, 255, 0.15);
     border-radius: 20px;
     font-size: 12px;
     cursor: pointer;
