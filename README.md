@@ -4,10 +4,8 @@ The project “Roam Nepal” is a tourism-based website designed to showcase pop
 Website: https://n4-niraj.github.io/Roam_Nepal/
 
 ScreenShots: 
-Screenshot 2026-05-23 122748.png
-Screenshot 2026-05-23 122757.png
-Screenshot 2026-05-23 122803.png
-Screenshot 2026-05-23 122831.png
-Screenshot 2026-05-23 122813.png
-
+https://github.com/N4-Niraj/Roam_Nepal/blob/main/Screenshot%202026-05-23%20122813.png?raw=true,
+https://github.com/N4-Niraj/Roam_Nepal/blob/main/Screenshot%202026-05-23%20122748.png?raw=true,
+https://github.com/N4-Niraj/Roam_Nepal/blob/main/Screenshot%202026-05-23%20122757.png?raw=true,
+https://github.com/N4-Niraj/Roam_Nepal/blob/main/Screenshot%202026-05-23%20122803.png?raw=true
 
